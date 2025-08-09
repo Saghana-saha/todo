@@ -8,8 +8,8 @@ const PORT=3000;
 app.use(cors());
 app.use(express.json());
 
+const MONGO_URL = 'mongodb+srv://saghanathangavel:saha@cluster0.jm2c0ns.mongodb.net/saha?retryWrites=true&w=majority&appName=Cluster0';
 
-const MONGO_URL = 'mongodb://127.0.0.1:27017/todo-app';
 
 
 const connectDb = async () => {
